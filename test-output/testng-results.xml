@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5410" started-at="2023-02-03T08:20:53Z" finished-at="2023-02-03T08:20:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5410" started-at="2023-02-03T08:20:53Z" finished-at="2023-02-03T08:20:59Z">
+      <class name="testCases.DeleteOneProductAdvanced">
+        <test-method status="PASS" signature="createOneProduct()[pri:1, instance:testCases.DeleteOneProductAdvanced@5e316c74]" name="createOneProduct" duration-ms="3198" started-at="2023-02-03T08:20:53Z" finished-at="2023-02-03T08:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOneProduct -->
+        <test-method status="PASS" signature="readAllProducts()[pri:2, instance:testCases.DeleteOneProductAdvanced@5e316c74]" name="readAllProducts" duration-ms="1435" started-at="2023-02-03T08:20:57Z" finished-at="2023-02-03T08:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readAllProducts -->
+        <test-method status="PASS" signature="deleteOneProduct()[pri:3, instance:testCases.DeleteOneProductAdvanced@5e316c74]" name="deleteOneProduct" duration-ms="343" started-at="2023-02-03T08:20:58Z" finished-at="2023-02-03T08:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOneProduct -->
+        <test-method status="PASS" signature="readOneDeletedProduct()[pri:4, instance:testCases.DeleteOneProductAdvanced@5e316c74]" name="readOneDeletedProduct" duration-ms="402" started-at="2023-02-03T08:20:58Z" finished-at="2023-02-03T08:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readOneDeletedProduct -->
+      </class> <!-- testCases.DeleteOneProductAdvanced -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
